@@ -1,0 +1,21 @@
+/* Header */
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.title span {
+  color: #24aaaa;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
