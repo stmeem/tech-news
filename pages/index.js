@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 export default function Home({articles}) {
-  console.log(articles)
   return (
     <div>
       <Head>
