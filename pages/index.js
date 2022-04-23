@@ -15,7 +15,7 @@ export default function Home({ articles }) {
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    `https://jsonplaceholder.typicode.com/posts?_limit=6`
+    `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${process.env.NEXT_PUBLIC_DEMO_VARIABLE}`
   );
   const articles = await res.json();
   return {

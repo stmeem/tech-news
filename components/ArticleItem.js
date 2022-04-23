@@ -3,10 +3,10 @@ import articleStyles from "../styles/Article.module.css";
 
 const ArticleItem = ({article}) => {
   return( 
-  <Link href="/article/[id]" as={`/article/${article.id}`}>
+  <Link href={article.url}>
      <a className={articleStyles.card}>
          <h3>{article.title} &rarr;</h3>
-         <p>{article.body}</p>
+         <p>{article.description}</p>
      </a>
     </Link>
   )};
