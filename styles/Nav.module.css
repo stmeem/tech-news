@@ -1,0 +1,35 @@
+/* NAVBAR STYLING STARTS */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: teal;
+    color: #fff;
+   }
+
+   .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+   .nav-links a {
+    color: #fff;
+   }
+   
+   /* NAVBAR MENU */
+   .nav li {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .nav li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .nav li {
+    padding: 5px 14px;
+   }
+   
